@@ -17,6 +17,7 @@ public class BankAccount {
 	public void deposit(int amount)
 	{
 		balance+=amount;
+		System.out.println("hello");
 	}
 		public void withdraw(int amount) {
 
